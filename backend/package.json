@@ -1,0 +1,17 @@
+{
+    "name": "online-pharmacy-backend",
+    "version": "1.0.0",
+    "description": "JSON Server for Online Pharmacy",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "json-server": "^0.17.1",
+      "cors": "^2.8.5"
+    }
+  }
+  
+  
