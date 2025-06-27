@@ -1,0 +1,192 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /*
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f6f2;
+    color: #333;
+    padding: 20px;
+  }
+  */
+  
+  /* Container Grid Layout 
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  */
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #bbeef9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #004c3f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin-bottom: 5px;
+    font-size: 2em;
+  }
+  
+  header p {
+    font-style: italic;
+    font-size: 1rem;
+  }
+  
+  .search-section {
+    background: #629bef;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-section input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .medicine-list {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .medicine-list .card {
+    background: rgb(9, 225, 31);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .medicine-list .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .medicine-list img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-list h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #004c3f;
+  }
+  
+  .medicine-list p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .medicine-list button {
+    background-color: #0e20eb;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .medicine-list button:hover {
+    background-color: #007f6b;
+  }
+  
+  .cart {
+    flex: 1;
+    background: rgb(232, 235, 235);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .cart h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #004c3f;
+  }
+  
+  .cart ul {
+    list-style: none;
+  }
+  
+  .cart li {
+    border-bottom: 1px solid #1f1212;
+    padding: 10px 0;
+  }
+  
+  .admin-panel {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e6f2f0;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  .admin-panel h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #004c3f;
+  }
+  
+  .admin-panel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-panel input,
+  .admin-panel button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .admin-panel button {
+    background-color: #004c3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .admin-panel button:hover {
+    background-color: #007f6b;
+  }
+  
+  

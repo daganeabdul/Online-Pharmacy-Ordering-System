@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MediDrop | Online Pharmacy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Takhal Pharmacy</h1>
+    <p>Order your medicine online and get it delivered to your door</p>
+  </header>
+
+  <section class="search-section">
+    <input type="text" id="search-input" placeholder="Search for medicine..." />
+  </section>
+
+  <main class="main-container">
+    <section id="medicine-list" class="medicine-list">
+      <!-- Medicines will be rendered here -->
+    </section>
+
+    <section id="cart" class="cart">
+      <h2>🛒 Your Cart</h2>
+      <ul id="cart-items"></ul>
+    </section>
+  </main>
+
+  <section class="admin-panel">
+    <h2>🧑‍⚕️ Admin Panel - Add New Medicine</h2>
+    <form id="admin-form">
+      <input type="text" id="med-name" placeholder="Medicine Name" required />
+      <input type="text" id="med-desc" placeholder="Description" required />
+      <input type="number" id="med-price" placeholder="Price" required />
+      <input type="text" id="med-img" placeholder="Image URL" required />
+      <button type="submit">Add Medicine</button>
+    </form>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
