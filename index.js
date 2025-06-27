@@ -1,6 +1,5 @@
 
-
-const API_URL = "https://online-pharmacy-backend-1.onrender.com/medicines";
+const API_URL = "https://online-pharmacy-backend-fv7s.onrender.com/medicines";
 
 const medicineList = document.getElementById("medicine-list");
 const cartList = document.getElementById("cart-items");
