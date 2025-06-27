@@ -1,19 +1,38 @@
-{
-    "medicines": [
-      {
-        "id": 1,
-        "name": "Paracetamol",
-        "description": "Pain reliever and fever reducer",
-        "price": 100,
-        "image": "https://via.placeholder.com/100x100.png?text=Paracetamol"
-      },
-      {
-        "id": 2,
-        "name": "Ibuprofen",
-        "description": "Used for pain and inflammation",
-        "price": 80,
-        "image": "https://via.placeholder.com/100x100.png?text=Ibuprofen"
-      }
-    ]
-  }
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "description": "Pain reliever and fever reducer",
+      "price": 100,
+      "image": "https://placehold.co/150x150?text=Paracetamol"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "description": "Used for pain and inflammation",
+      "price": 80,
+      "image": "https://placehold.co/150x150?text=Ibuprofen"
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin",
+      "description": "Used to treat bacterial infections",
+      "price": 150,
+      "image": "https://placehold.co/150x150?text=Amoxicillin"
+    },
+    {
+      "id": 4,
+      "name": "Cetirizine",
+      "description": "Used for allergies and hay fever",
+      "price": 50,
+      "image": "https://placehold.co/150x150?text=Cetirizine"
+    },
+    {
+      "id": 5,
+      "name": "Loratadine",
+      "description": "Allergy relief medication",
+      "price": 60,
+      "image": "https://placehold.co/150x150?text=Loratadine"
+    }
+  ]
   
