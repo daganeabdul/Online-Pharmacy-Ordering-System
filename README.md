@@ -1,82 +1,108 @@
 
- Online Pharmacy Ordering System
-An intuitive, single-page application (SPA) where users can browse, search, and order medicines, while administrators can manage stock through a JSON Server-powered backend. Built with HTML, CSS, JavaScript, and deployed via Render and GitHub Pages.
+Online Pharmacy Ordering System
 
- Live Demo
-Frontend (User Interface): Online Pharmacy UI
+An intuitive Single Page Application (SPA) where users can browse, search, and order medicines, while administrators manage stock using a  JSON Server-powered backend. Built using  HTML, CSS, and JavaScript, and deployed via  GitHub Pages (frontend) and  Render  (backend).
+
+By Abdirahman Dagane
 
 
-Backend (API): JSON Server API
+
+Description
+
+This Online Pharmacy Ordering System demonstrates:
+
+- Real-time search and filtering of medicine
+- Shopping cart functionality
+- Admin panel for medicine inventory management
+- Full CRUD operations via `fetch()` with JSON Server
+- Separation of frontend and backend folders
+- A full-stack mini project using vanilla technologies
+
+
+SCREENSHOT
+ ![image alt]()
+
+ 
+Features
+
+User Side
+
+- View medicine cards with image, description, and price
+- Add items to a shopping cart
+- Live search to filter medicines by name
+- User-friendly, responsive UI
+
+Admin Side
+
+- Add new medicines using a form (name, description, price, image URL)
+- Real-time form submission updates the backend using a  POST request
+- Full backend data managed using  JSON Server
+
+
+
+Live Demo
+
+- Frontend (UI):  View Online Pharmacy UI 
+         https://daganeabdul.github.io/Online-Pharmacy-Ordering-System/ 
+
+- Backend (API): View JSON Server API
+        https://online-pharmacy-api.onrender.com/medicines     Hosted on Render
+
+
+
+How to Use Locally
+
+Setup Instructions
+
+1. Clone the repository:
+
+  bash
+
+   git clone https://github.com/daganeabdul/Online-Pharmacy-Ordering-System.git
+
+   cd Online-Pharmacy-Ordering-System
+
+Install backend dependencies:
+
+ cd backend
+ npm install
+
+
+Start the backend server:
+
+ node server.js
+ The API will be available at:
+  http://localhost:10000/medicines
+
+
+Start the frontend:
+
+
+Open index.html in your browser
+ 
+
+
+Use Live Server in VS Code for auto-reload
 
 
 
  Project Structure
 Online-Pharmacy-Ordering-System/
 
-
  backend/
-   db.json            # Sample medicine data
-   package.json       # Backend dependencies (json-server, cors)
-     server.js          # Custom JSON Server setup
+     db.json          
+     package.json     
+      server.js      
 
-index.html             # Main UI layout
- index.js               # JavaScript logic (fetch, render, search, admin form)
- style.css              # UI styling
-images/                # Sample medicine images
-README.md              # Project documentation
-
-
- Features
- User Side
-View medicine cards with image, description, and price.
+ index.html       
+ index.js           
+ style.css            
+ images/             
+ README.md          
 
 
-Add items to a shopping cart.
+Sample API Data (db.json)
 
-
-Live search to filter medicines by name.
-
-
- Admin Side
-Add new medicines using the admin form (name, description, price, image URL).
-
-
-Real-time form submission updates the backend (POST request).
-
-
-
- Setup Instructions (Local)
-Clone the repo:
-
- git clone https://github.com/daganeabdul/Online-Pharmacy-Ordering-System.git
-cd Online-Pharmacy-Ordering-System
-
-
-Install JSON Server dependencies:
-
- cd backend
-npm install
-
-
-Start the backend server:
-
- node server.js
- Default port: http://localhost:10000/medicines
-
-
-Open index.html in your browser to use the frontend.
-
-
-
- Deployment
-Frontend: Deployed on GitHub Pages (gh-pages branch)
-
-
-Backend: Deployed on Render (Node.js + JSON Server)
-
-
-
- Sample API Data (db.json)
 [
   {
     "id": 1,
@@ -96,22 +122,21 @@ Backend: Deployed on Render (Node.js + JSON Server)
 
 
  Tech Stack
-Frontend: HTML, CSS, JavaScript 
+Frontend: HTML, CSS, JavaScript (ES6)
 
 
-Backend: JSON Server + Node.js
+Backend: JSON Server, Node.js
 
 
 Hosting: GitHub Pages (frontend), Render.com (backend)
 
 
 
- Credits
-Developed by Abdirahman Dagane.
 
- 
- License
-This project is open-source under the MIT License.
+License
+MIT License
+
+
 
 
 
