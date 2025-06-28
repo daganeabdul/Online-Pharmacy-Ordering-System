@@ -20,7 +20,9 @@ This Online Pharmacy Ordering System demonstrates:
 
 
 SCREENSHOT
- ![image alt]()
+
+
+ ![image alt](https://github.com/daganeabdul/Online-Pharmacy-Ordering-System/blob/main/unnamed%20(2).png?raw=true)
 
  
 Features
